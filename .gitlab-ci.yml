@@ -1,0 +1,138 @@
+# GitLab CI：构建 HTML 站点 + PDF，HTML 发布到 GitLab Pages，打 tag 时创建 Release 并附带 PDF
+#
+# 流水线结构：
+#   build:   build-html（所有分支/MR）   build-pdf（默认分支与 tag）
+#   deploy:  pages（仅默认分支，发布 HTML 与 PDF）
+#   release: publish-pdf -> release（仅 v* tag，PDF 上传到 Generic Package Registry 后挂到 Release）
+#
+# 需要在 GitLab 项目中确认：Settings > CI/CD 中 Pages 已启用（默认开启），
+# Runner 能访问 github.com（用于下载 Quarto deb 包）。
+
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH
+    - if: $CI_COMMIT_TAG
+
+stages:
+  - build
+  - deploy
+  - release
+
+variables:
+  QUARTO_VERSION: "1.6.42"          # 与 README 中的实测版本保持一致
+  DEBIAN_FRONTEND: "noninteractive"
+  # 包注册表与下载文件名使用 ASCII，避免 URL 编码问题；Release 中显示的中文名见 release 任务
+  PACKAGE_NAME: "molecules-and-algorithms"
+  PDF_FILE: "molecules-and-algorithms.pdf"
+
+# 书稿渲染环境：Ubuntu 24.04 + Quarto + XeLaTeX + Noto CJK 字体
+# 如果构建频繁，建议把这一段预装到自定义镜像里，可大幅缩短耗时
+.book-env:
+  image: ubuntu:24.04
+  before_script:
+    - apt-get update -qq
+    - apt-get install -y -qq --no-install-recommends wget ca-certificates python3 libcairo2
+        texlive-xetex texlive-latex-recommended texlive-latex-extra
+        texlive-fonts-recommended texlive-pictures
+        fonts-noto-cjk fonts-noto-cjk-extra > /dev/null
+    - wget -q -O /tmp/quarto.deb
+        "https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb"
+    - apt-get install -y -qq /tmp/quarto.deb > /dev/null
+    - quarto --version
+    - xelatex --version | head -1
+
+# ---------- build ----------
+
+build-html:
+  extends: .book-env
+  stage: build
+  timeout: 30m
+  script:
+    - quarto render --to html
+  artifacts:
+    name: "html-site"
+    paths:
+      - _build/
+    expire_in: 1 week
+
+build-pdf:
+  extends: .book-env
+  stage: build
+  timeout: 1h
+  # build-pdf.sh 内部会调用 quarto render --to latex，并把 PDF 输出到仓库根目录
+  script:
+    - bash tools/build-pdf.sh
+    - mv -f "分子与算法.pdf" "$PDF_FILE"
+    - ls -lh "$PDF_FILE"
+  artifacts:
+    name: "pdf"
+    paths:
+      - "$PDF_FILE"
+    expire_in: 1 week
+  rules:
+    - if: $CI_COMMIT_TAG
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+# ---------- deploy to GitLab Pages ----------
+
+pages:
+  stage: deploy
+  image: alpine:latest
+  needs:
+    - job: build-html
+      artifacts: true
+    - job: build-pdf
+      artifacts: true
+  script:
+    - rm -rf public
+    - mkdir -p public
+    - cp -r _build/. public/
+    - cp "$PDF_FILE" public/
+    - ls -lh public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      # 只在默认分支部署，MR 与其他分支只做构建检查
+
+# ---------- release ----------
+
+publish-pdf:
+  stage: release
+  image: curlimages/curl:latest
+  needs:
+    - job: build-pdf
+      artifacts: true
+  script:
+    - >
+      curl --fail --show-error --header "JOB-TOKEN: $CI_JOB_TOKEN"
+      --upload-file "$PDF_FILE"
+      "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/${PACKAGE_NAME}/${CI_COMMIT_TAG}/${PDF_FILE}"
+  rules:
+    - if: $CI_COMMIT_TAG =~ /^v/
+
+release:
+  stage: release
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  needs:
+    - job: publish-pdf
+  rules:
+    - if: $CI_COMMIT_TAG =~ /^v/
+  release:
+    tag_name: $CI_COMMIT_TAG
+    name: "分子与算法 $CI_COMMIT_TAG"
+    description: |
+      《分子与算法：AI 药物研发全景（2026）》发布版本 $CI_COMMIT_TAG。
+
+      - 在线阅读（HTML）：${CI_PAGES_URL}
+      - 下载 PDF：见下方 Assets
+    assets:
+      links:
+        - name: "分子与算法.pdf"
+          url: "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/${PACKAGE_NAME}/${CI_COMMIT_TAG}/${PDF_FILE}"
+          link_type: package
+        - name: "在线阅读（HTML）"
+          url: "${CI_PAGES_URL}"
+          link_type: other
