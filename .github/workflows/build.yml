@@ -126,7 +126,13 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "$GITHUB_REF_NAME" "pdf/$PDF_NAME" \
-            --title "分子与算法 $GITHUB_REF_NAME" \
-            --generate-notes \
-            --verify-tag
+          # 同名 Release 已存在（如手动创建过）时，gh release create 会报错并让本 job 失败；
+          # 此时改为把 PDF 上传为附件并覆盖同名文件。
+          if gh release view "$GITHUB_REF_NAME" > /dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" "pdf/$PDF_NAME" --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" "pdf/$PDF_NAME" \
+              --title "分子与算法 $GITHUB_REF_NAME" \
+              --generate-notes \
+              --verify-tag
+          fi
