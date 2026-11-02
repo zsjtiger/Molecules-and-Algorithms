@@ -73,6 +73,11 @@ build-pdf:
   rules:
     - if: $CI_COMMIT_TAG
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    # 在 GitLab 页面 CI/CD > Pipelines > Run pipeline 手动触发时，任意分支都会自动打包
+    - if: $CI_PIPELINE_SOURCE == "web"
+    # 其他分支的普通提交：不自动打包，需要时在流水线页面手动点击运行
+    - when: manual
+      allow_failure: true
 
 # ---------- deploy to GitLab Pages ----------
 
