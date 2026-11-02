@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" width="1000" height="460">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="1000" height="460" fill="#ffffff"/>
+  <text x="500.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">从“能结合”到“能成药”：瓶颈的转移</text>
+  <rect x="60.0" y="80.0" width="300.0" height="80.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.16" stroke="#009E73" stroke-width="1.5"/>
+  <text x="210.0" y="115.5" font-size="15" text-anchor="middle" font-weight="600" fill="#1a1a1a">能结合</text>
+  <text x="210.0" y="134.7" font-size="11.5" text-anchor="middle" font-weight="400" fill="#444444">从头设计已取得突破：
+Chai-2 迷你蛋白命中率 68%</text>
+  <line x1="372.0" y1="120.0" x2="420.0" y2="120.0" stroke="#1a1a1a" stroke-width="2" marker-end="url(#ar-black)"/>
+  <rect x="430.0" y="80.0" width="320.0" height="80.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.16" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="590.0" y="115.5" font-size="15" text-anchor="middle" font-weight="600" fill="#1a1a1a">能成药</text>
+  <text x="590.0" y="134.7" font-size="11.5" text-anchor="middle" font-weight="400" fill="#444444">可开发性与免疫原性
+仍是主要障碍</text>
+  <rect x="28.0" y="210.0" width="228.0" height="78.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="142.0" y="244.1" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">亲和力与特异性</text>
+  <text x="142.0" y="261.9" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">是否结合脱靶蛋白</text>
+  <rect x="271.0" y="210.0" width="228.0" height="78.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="385.0" y="244.1" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">热稳定性与化学稳定性</text>
+  <text x="385.0" y="261.9" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">储存与货架期</text>
+  <rect x="514.0" y="210.0" width="228.0" height="78.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="628.0" y="244.1" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">聚集倾向</text>
+  <text x="628.0" y="261.9" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">高浓度下是否析出</text>
+  <rect x="757.0" y="210.0" width="228.0" height="78.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="871.0" y="244.1" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">溶解度与黏度</text>
+  <text x="871.0" y="261.9" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">能否做成皮下注射剂</text>
+  <rect x="28.0" y="306.0" width="228.0" height="78.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="142.0" y="340.1" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">表达量</text>
+  <text x="142.0" y="357.9" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">生产成本</text>
+  <rect x="271.0" y="306.0" width="228.0" height="78.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="385.0" y="340.1" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">免疫原性</text>
+  <text x="385.0" y="357.9" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">是否引发抗药抗体</text>
+  <rect x="514.0" y="306.0" width="228.0" height="78.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="628.0" y="340.1" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">药代动力学</text>
+  <text x="628.0" y="357.9" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">半衰期与给药频率</text>
+  <rect x="757.0" y="306.0" width="228.0" height="78.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="871.0" y="340.1" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">易修饰位点</text>
+  <text x="871.0" y="357.9" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">氧化、脱酰胺影响一致性</text>
+  <text x="500.0" y="434.0" font-size="12.5" text-anchor="middle" font-weight="600" fill="#A51C30">AI 在这八项上的预测能力普遍弱于“能否结合”——这是生物药 AI 的下一个主战场</text>
+</svg>

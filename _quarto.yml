@@ -1,0 +1,178 @@
+project:
+  type: book
+  output-dir: _build
+  post-render:
+  - tools/postrender.py
+lang: zh
+book:
+  title: 分子与算法
+  subtitle: AI 药物研发全景（2026）
+  author: 许奎 著
+  date: 2026-10
+  cover-image: assets/images/cover.jpg
+  search: true
+  page-navigation: true
+  back-to-top-navigation: true
+  reader-mode: false
+  sidebar:
+    style: floating
+    collapse-level: 1
+  chapters:
+  - index.qmd
+  - part: contents/parts/p1_industry.qmd
+    chapters:
+    - contents/core/01_economics/01_economics.qmd
+    - contents/core/02_history/02_history.qmd
+    - contents/core/03_landscape/03_landscape.qmd
+    - contents/core/04_players/04_players.qmd
+    - contents/core/05_china/05_china.qmd
+    - contents/core/06_capital/06_capital.qmd
+  - part: contents/parts/p2_technology.qmd
+    chapters:
+    - contents/core/07_representation/07_representation.qmd
+    - contents/core/08_target/08_target.qmd
+    - contents/core/09_structure/09_structure.qmd
+    - contents/core/10_screening/10_screening.qmd
+    - contents/core/11_generative/11_generative.qmd
+    - contents/core/12_admet/12_admet.qmd
+    - contents/core/13_synthesis/13_synthesis.qmd
+    - contents/core/14_biologics/14_biologics.qmd
+    - contents/core/15_clinical/15_clinical.qmd
+    - contents/core/16_agents/16_agents.qmd
+  - part: contents/parts/p3_data.qmd
+    chapters:
+    - contents/core/17_data_resources/17_data_resources.qmd
+    - contents/core/18_data_quality/18_data_quality.qmd
+    - contents/core/19_data_flywheel/19_data_flywheel.qmd
+  - part: contents/parts/p4_frameworks.qmd
+    chapters:
+    - contents/core/20_toolchain/20_toolchain.qmd
+    - contents/core/21_platform/21_platform.qmd
+    - contents/core/22_adoption/22_adoption.qmd
+  - part: contents/parts/p5_challenges.qmd
+    chapters:
+    - contents/core/23_evaluation/23_evaluation.qmd
+    - contents/core/24_science_gaps/24_science_gaps.qmd
+    - contents/core/25_org_business/25_org_business.qmd
+  - part: contents/parts/p6_regulation.qmd
+    chapters:
+    - contents/core/26_reg_west/26_reg_west.qmd
+    - contents/core/27_reg_china/27_reg_china.qmd
+    - contents/core/28_ip_biosecurity/28_ip_biosecurity.qmd
+  - part: contents/parts/p7_future.qmd
+    chapters:
+    - contents/core/29_trends/29_trends.qmd
+    - contents/core/30_ethics/30_ethics.qmd
+    - contents/core/31_milestones/31_milestones.qmd
+  - part: 附录
+    chapters:
+    - contents/backmatter/a_glossary.qmd
+    - contents/backmatter/b_resources.qmd
+    - contents/backmatter/c_sources.qmd
+  - contents/backmatter/references.qmd
+crossref:
+  fig-title: 图
+  tbl-title: 表
+  eq-prefix: 式
+  fig-prefix: 图
+  tbl-prefix: 表
+  chapters: true
+bibliography: references.bib
+csl: assets/chinese-gb7714.csl
+filters:
+- at: pre-ast
+  path: filters/callouts.lua
+- filters/latex-figs.lua
+format:
+  html:
+    theme:
+      light:
+      - cosmo
+      - assets/styles/style.scss
+    toc: true
+    toc-depth: 3
+    toc-title: 本章目录
+    number-sections: true
+    number-depth: 3
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    reference-location: margin
+    citation-location: document
+    lightbox: true
+    html-math-method: mathjax
+    mainfont: Noto Sans CJK SC
+  pdf:
+    documentclass: book
+    classoption: [oneside, openany, 11pt]
+    papersize: a4
+    geometry:
+      - inner=2.6cm
+      - outer=2.2cm
+      - top=2.4cm
+      - bottom=2.6cm
+      - headsep=12pt
+    pdf-engine: xelatex
+    mainfont: "Noto Serif CJK SC"
+    sansfont: "Noto Sans CJK SC"
+    monofont: "Noto Sans Mono CJK SC"
+    monofontoptions:
+      - "Scale=0.92"
+    include-in-header: tex/preamble.tex
+    toc: true
+    toc-depth: 2
+    toc-title: 目录
+    number-sections: true
+    number-depth: 3
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    colorlinks: true
+    linkcolor: bookcrimson
+    citecolor: bookcrimson
+    urlcolor: bookcrimson
+    fig-pos: 'htbp'
+    callout-icon: false
+    keep-tex: true
+    cite-method: citeproc
+  latex:
+    documentclass: book
+    classoption: [oneside, openany, 11pt]
+    papersize: a4
+    geometry:
+      - inner=2.6cm
+      - outer=2.2cm
+      - top=2.4cm
+      - bottom=2.6cm
+      - headsep=12pt
+    pdf-engine: xelatex
+    mainfont: "Noto Serif CJK SC"
+    sansfont: "Noto Sans CJK SC"
+    monofont: "Noto Sans Mono CJK SC"
+    monofontoptions:
+      - "Scale=0.92"
+    include-in-header: tex/preamble.tex
+    toc: true
+    toc-depth: 2
+    toc-title: 目录
+    number-sections: true
+    number-depth: 3
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    colorlinks: true
+    linkcolor: bookcrimson
+    citecolor: bookcrimson
+    urlcolor: bookcrimson
+    fig-pos: 'htbp'
+    callout-icon: false
+    keep-tex: true
+    cite-method: citeproc
+language:
+  callout-note-title: 定义
+  callout-important-title: 原则
+  callout-warning-title: 案例
+  callout-tip-title: 检查点
+  callout-caution-title: 标杆
+  crossref-ch-prefix: 第
+  crossref-sec-prefix: 第
+  crossref-apx-prefix: 附录
+  section-title-footnotes: 脚注
+  section-title-references: 参考文献

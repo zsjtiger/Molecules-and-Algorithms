@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 430" width="1020" height="430">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="1020" height="430" fill="#ffffff"/>
+  <text x="510.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">一个活性数据点的来龙去脉：每一步都可能引入误差</text>
+  <rect x="24.0" y="70.0" width="180.0" height="110.0" rx="6" ry="6" fill="#7a7a7a" fill-opacity="0.14" stroke="#7a7a7a" stroke-width="1.5"/>
+  <text x="114.0" y="113.9" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">实验测定</text>
+  <text x="114.0" y="131.6" font-size="10.5" text-anchor="middle" font-weight="400" fill="#444444">不同实验室的缓冲液、温度、酶浓</text>
+  <text x="114.0" y="145.2" font-size="10.5" text-anchor="middle" font-weight="400" fill="#444444">度各不相同</text>
+  <line x1="204.0" y1="125.0" x2="228.0" y2="125.0" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar-black)"/>
+  <rect x="228.0" y="70.0" width="180.0" height="110.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.14" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="318.0" y="120.7" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">论文发表</text>
+  <text x="318.0" y="138.4" font-size="10.5" text-anchor="middle" font-weight="400" fill="#444444">阳性结果发表率远高于阴性结果</text>
+  <line x1="408.0" y1="125.0" x2="432.0" y2="125.0" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar-black)"/>
+  <rect x="432.0" y="70.0" width="180.0" height="110.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.14" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="522.0" y="120.7" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">人工提取</text>
+  <text x="522.0" y="138.4" font-size="10.5" text-anchor="middle" font-weight="400" fill="#444444">从表格与正文中抽取数值与单位</text>
+  <line x1="612.0" y1="125.0" x2="636.0" y2="125.0" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar-black)"/>
+  <rect x="636.0" y="70.0" width="180.0" height="110.0" rx="6" ry="6" fill="#56B4E9" fill-opacity="0.14" stroke="#56B4E9" stroke-width="1.5"/>
+  <text x="726.0" y="113.9" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">数据库收录</text>
+  <text x="726.0" y="131.6" font-size="10.5" text-anchor="middle" font-weight="400" fill="#444444">标准化为统一字段，但原始条件已</text>
+  <text x="726.0" y="145.2" font-size="10.5" text-anchor="middle" font-weight="400" fill="#444444">丢失</text>
+  <line x1="816.0" y1="125.0" x2="840.0" y2="125.0" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar-black)"/>
+  <rect x="840.0" y="70.0" width="180.0" height="110.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.14" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="930.0" y="120.7" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">建模使用</text>
+  <text x="930.0" y="138.4" font-size="10.5" text-anchor="middle" font-weight="400" fill="#444444">常被当作同质数据直接混合训练</text>
+  <rect x="24.0" y="212.0" width="972.0" height="52.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.1" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="510.0" y="234.0" font-size="13" text-anchor="middle" font-weight="700" fill="#A51C30">同一个分子对同一个靶点的 IC50，不同文献之间相差 10 倍并不罕见</text>
+  <text x="510.0" y="254.0" font-size="11.5" text-anchor="middle" font-weight="400" fill="#555">这不是数据录入错误，而是实验条件差异的真实反映</text>
+  <text x="24.0" y="306.0" font-size="12.5" text-anchor="start" font-weight="700" fill="#CC79A7">对建模的含义：</text>
+  <text x="150.0" y="306.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">训练标签本身带有约 0.5 个对数单位的固有噪声，模型精度不可能超过这个下限</text>
+  <text x="24.0" y="352.0" font-size="12.5" text-anchor="start" font-weight="700" fill="#CC79A7">对评测的含义：</text>
+  <text x="150.0" y="352.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">测试集误差低于标签噪声，通常意味着数据泄漏而非模型优秀</text>
+  <text x="24.0" y="398.0" font-size="12.5" text-anchor="start" font-weight="700" fill="#CC79A7">对实践的含义：</text>
+  <text x="150.0" y="398.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">跨来源混合数据时，应保留来源字段并检查同一分子的多次测定是否一致</text>
+</svg>

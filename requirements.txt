@@ -1,0 +1,8 @@
+# 重新生成插图所需的 Python 包（渲染书稿本身不需要）
+# 版本为本书成稿时的实测环境，上浮通常没问题
+matplotlib>=3.8
+numpy>=1.26
+cairosvg>=2.7          # SVG → PNG / PDF，依赖系统的 libcairo
+rdkit>=2024.3          # 分子结构图（第 7、12 章）
+selfies>=2.1           # SELFIES 字符串（第 7 章）
+pillow>=10.0           # 封面裁切

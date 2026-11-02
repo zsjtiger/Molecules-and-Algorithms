@@ -1,0 +1,47 @@
+/*-- scss:defaults --*/
+// 西文 Inter / JetBrains Mono（同 MLSysBook），中文回落到 Noto Sans CJK SC
+$font-family-sans-serif: "Inter", "Noto Sans SC", "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif;
+$font-family-monospace: "JetBrains Mono", "Fira Code", "Noto Sans Mono CJK SC", SFMono-Regular, Menlo, monospace;
+$primary: #A51C30;           // crimson accent, MLSysBook-like
+$link-color: #A51C30;
+$body-color: #1a1a1a;
+$headings-font-weight: 600;
+$line-height-base: 1.75;
+$font-size-root: 17px;
+
+/*-- scss:rules --*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+body { letter-spacing: 0.01em; }
+h1.title, .chapter-title { font-weight: 700; }
+h2 { border-bottom: 1px solid #e5e5e5; padding-bottom: .3rem; margin-top: 2.4rem; }
+.quarto-figure-center > figure > p, figure img { max-width: 100%; }
+figcaption, .figure-caption { font-size: .9rem; color: #444; }
+.table { font-size: .92rem; }
+
+/* custom callout colour bands (border-left + header tint) */
+@mixin cb($c) {
+  border-left-color: $c !important;
+  .callout-header { background-color: rgba($c, .09) !important; }
+  .callout-icon::before, .callout-title-container { color: darken($c, 8%); }
+}
+.callout.cb-lo    { @include cb(#0072B2); }
+.callout.cb-def   { @include cb(#009E73); }
+.callout.cb-ex    { @include cb(#56B4E9); }
+.callout.cb-ws    { @include cb(#D55E00); }
+.callout.cb-chk   { @include cb(#CC79A7); }
+.callout.cb-persp { @include cb(#6b6b6b); }
+.callout.cb-pri   { @include cb(#A51C30); }
+.callout.cb-tk    { @include cb(#E69F00); }
+.callout.cb-cc    { @include cb(#444444); }
+.callout.cb-lh    { @include cb(#009E73); }
+
+/* Purpose block */
+.purpose-question { font-size: 1.15rem; font-style: italic; color: #A51C30; margin: .5rem 0 1rem 0; }
+
+/* Fallacies & pitfalls */
+.fp-box { border: 1px solid #e3e3e3; border-left: 4px solid #D55E00; background: #fffaf6;
+          padding: .8rem 1rem; margin: 1rem 0; border-radius: 4px; }
+.fp-box p:first-child strong { color: #D55E00; }
+
+/* Margin notes */
+.column-margin { font-size: .85rem; color: #555; }

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 460" width="1060" height="460">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="1060" height="460" fill="#ffffff"/>
+  <text x="530.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">欧美与国际监管框架的分工</text>
+  <rect x="20.0" y="66.0" width="244.0" height="44.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.18" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="142.0" y="92.3" font-size="14.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">FDA</text>
+  <rect x="26.0" y="124.0" width="232.0" height="84.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.08" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="142.0" y="160.8" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">AI 在药物与生物制品监管决策中的</text>
+  <text x="142.0" y="178.3" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">应用指导（草案，2025）</text>
+  <rect x="26.0" y="220.0" width="232.0" height="84.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.08" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="142.0" y="265.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">基于风险的可信度评估七步法</text>
+  <rect x="26.0" y="316.0" width="232.0" height="84.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.08" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="142.0" y="361.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">模型辅助药物开发（MIDD）路径</text>
+  <rect x="284.0" y="66.0" width="244.0" height="44.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.18" stroke="#009E73" stroke-width="1.5"/>
+  <text x="406.0" y="92.3" font-size="14.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">EMA</text>
+  <rect x="290.0" y="124.0" width="232.0" height="84.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.08" stroke="#009E73" stroke-width="1.5"/>
+  <text x="406.0" y="160.8" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">AI 在药物生命周期中应用的</text>
+  <text x="406.0" y="178.3" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">反思文件（2024）</text>
+  <rect x="290.0" y="220.0" width="232.0" height="84.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.08" stroke="#009E73" stroke-width="1.5"/>
+  <text x="406.0" y="265.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">数字孪生等方法的资格认定程序</text>
+  <rect x="290.0" y="316.0" width="232.0" height="84.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.08" stroke="#009E73" stroke-width="1.5"/>
+  <text x="406.0" y="361.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">与 EU AI Act 的衔接</text>
+  <rect x="548.0" y="66.0" width="244.0" height="44.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.18" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="670.0" y="92.3" font-size="14.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">EU AI Act</text>
+  <rect x="554.0" y="124.0" width="232.0" height="84.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.08" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="670.0" y="169.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">按风险分级的横向立法</text>
+  <rect x="554.0" y="220.0" width="232.0" height="84.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.08" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="670.0" y="265.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">医疗相关多属高风险类别</text>
+  <rect x="554.0" y="316.0" width="232.0" height="84.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.08" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="670.0" y="352.8" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">对透明度、数据治理、</text>
+  <text x="670.0" y="370.3" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">人类监督提出要求</text>
+  <rect x="812.0" y="66.0" width="244.0" height="44.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.18" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="934.0" y="92.3" font-size="14.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">ICH</text>
+  <rect x="818.0" y="124.0" width="232.0" height="84.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.08" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="934.0" y="160.8" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">M7：杂质致突变性的</text>
+  <text x="934.0" y="178.3" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">计算毒理评估</text>
+  <rect x="818.0" y="220.0" width="232.0" height="84.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.08" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="934.0" y="265.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">已被接受的“计算替代实验”先例</text>
+  <rect x="818.0" y="316.0" width="232.0" height="84.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.08" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="934.0" y="361.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">后续指导原则正在讨论</text>
+  <text x="530.0" y="440.0" font-size="12.5" text-anchor="middle" font-weight="700" fill="#444">共同点：没有“AI 专用审评通道”，AI 被纳入既有的证据与质量体系来管理。</text>
+</svg>

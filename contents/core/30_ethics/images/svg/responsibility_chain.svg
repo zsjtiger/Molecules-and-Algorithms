@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 420" width="1020" height="420">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="1020" height="420" fill="#ffffff"/>
+  <text x="510.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">责任链条：每一环都可以指向下一环</text>
+  <rect x="24.0" y="74.0" width="220.0" height="100.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.13" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="134.0" y="119.4" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">模型开发者</text>
+  <text x="134.0" y="137.6" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">我只提供工具，不对具体使用负责</text>
+  <line x1="244.0" y1="124.0" x2="280.0" y2="124.0" stroke="#D55E00" stroke-width="1.6" marker-end="url(#ar-verm)"/>
+  <rect x="280.0" y="74.0" width="220.0" height="100.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.13" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="390.0" y="119.4" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">平台提供方</text>
+  <text x="390.0" y="137.6" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">我按合同交付，科学判断在客户</text>
+  <line x1="500.0" y1="124.0" x2="536.0" y2="124.0" stroke="#D55E00" stroke-width="1.6" marker-end="url(#ar-verm)"/>
+  <rect x="536.0" y="74.0" width="220.0" height="100.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.13" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="646.0" y="119.4" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">使用的研究者</text>
+  <text x="646.0" y="137.6" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">我按流程使用，模型是机构批准的</text>
+  <line x1="756.0" y1="124.0" x2="792.0" y2="124.0" stroke="#D55E00" stroke-width="1.6" marker-end="url(#ar-verm)"/>
+  <rect x="792.0" y="74.0" width="220.0" height="100.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.13" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="902.0" y="119.4" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">决策机构</text>
+  <text x="902.0" y="137.6" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">我依据专业人员的建议做出决定</text>
+  <rect x="24.0" y="206.0" width="972.0" height="44.0" rx="6" ry="6" fill="#D55E00" fill-opacity="0.12" stroke="#D55E00" stroke-width="1.5"/>
+  <text x="510.0" y="234.0" font-size="13" text-anchor="middle" font-weight="700" fill="#D55E00">结果：责任在链条上流动，最终可能无人实际承担</text>
+  <rect x="24.0" y="268.0" width="200.0" height="38.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.14" stroke="#009E73" stroke-width="1.5"/>
+  <text x="124.0" y="290.8" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">记录决策依据</text>
+  <text x="246.0" y="293.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">每个采纳或不采纳模型建议的决定都留下理由</text>
+  <rect x="24.0" y="316.0" width="200.0" height="38.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.14" stroke="#009E73" stroke-width="1.5"/>
+  <text x="124.0" y="338.8" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">明确问责主体</text>
+  <text x="246.0" y="341.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">合同与内部制度事先指定每类决策的责任人</text>
+  <rect x="24.0" y="364.0" width="200.0" height="38.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.14" stroke="#009E73" stroke-width="1.5"/>
+  <text x="124.0" y="386.8" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">保留人的否决权</text>
+  <text x="246.0" y="389.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">模型的建议永远是输入，决定权不下放给系统</text>
+</svg>

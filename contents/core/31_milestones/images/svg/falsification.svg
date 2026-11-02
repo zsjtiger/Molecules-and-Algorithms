@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 420" width="920" height="420">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="920" height="420" fill="#ffffff"/>
+  <text x="460.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">本书的核心判断及其否证条件</text>
+  <rect x="24.0" y="66.0" width="270.0" height="66.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.17" stroke="#009E73" stroke-width="1.5"/>
+  <text x="159.0" y="103.0" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">前端提效是真实的</text>
+  <text x="318.0" y="106.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">若到 2029 年仍无企业能给出带基线的周期缩短数据，此判断应被怀疑</text>
+  <rect x="24.0" y="148.0" width="270.0" height="66.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.17" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="159.0" y="185.0" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">后端瓶颈不随算力放松</text>
+  <text x="318.0" y="188.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">若某个疾病领域在 2030 年前出现成功率的数量级跃升，此判断需修正</text>
+  <rect x="24.0" y="230.0" width="270.0" height="66.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.17" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="159.0" y="267.1" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">评测缺口是核心障碍</text>
+  <text x="318.0" y="270.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">若按时间划分的产业基准建立后，方法间差距仍如现在的报告所示，此判断不成立</text>
+  <rect x="24.0" y="312.0" width="270.0" height="66.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.17" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="159.0" y="349.1" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">数据的方向性偏差难以消除</text>
+  <text x="318.0" y="352.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">若出现能在长尾靶点上稳定有效的方法，此判断应被修正</text>
+  <text x="24.0" y="406.0" font-size="12.5" text-anchor="start" font-weight="700" fill="#A51C30">一个不能被否证的判断不是判断，是立场。</text>
+</svg>

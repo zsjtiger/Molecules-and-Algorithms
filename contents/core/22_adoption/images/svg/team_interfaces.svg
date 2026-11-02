@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 440" width="1040" height="440">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="1040" height="440" fill="#ffffff"/>
+  <text x="520.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">跨职能团队：四种角色，三个接口</text>
+  <rect x="20.0" y="70.0" width="238.0" height="108.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.14" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="139.0" y="112.6" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">药物化学家 / 生物学家</text>
+  <text x="139.0" y="129.9" font-size="10.5" text-anchor="middle" font-weight="400" fill="#444444">定义问题、判断结果是否合理、决定下一轮做什</text>
+  <text x="139.0" y="143.6" font-size="10.5" text-anchor="middle" font-weight="400" fill="#444444">么</text>
+  <rect x="274.0" y="70.0" width="238.0" height="108.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.14" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="393.0" y="112.6" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">计算与建模</text>
+  <text x="393.0" y="129.9" font-size="10.5" text-anchor="middle" font-weight="400" fill="#444444">选择方法、训练与评估模型、给出带不确定性的</text>
+  <text x="393.0" y="143.6" font-size="10.5" text-anchor="middle" font-weight="400" fill="#444444">预测</text>
+  <rect x="528.0" y="70.0" width="238.0" height="108.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.14" stroke="#009E73" stroke-width="1.5"/>
+  <text x="647.0" y="119.4" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">数据与平台工程</text>
+  <text x="647.0" y="136.8" font-size="10.5" text-anchor="middle" font-weight="400" fill="#444444">数据管道、服务可靠性、可复现性与审计</text>
+  <rect x="782.0" y="70.0" width="238.0" height="108.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.14" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="901.0" y="119.4" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">项目与转化负责人</text>
+  <text x="901.0" y="136.8" font-size="10.5" text-anchor="middle" font-weight="400" fill="#444444">设定成功标准、协调优先级、对接管线决策</text>
+  <rect x="20.0" y="218.0" width="212.0" height="50.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.15" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="126.0" y="246.8" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">化学 ↔ 建模</text>
+  <text x="254.0" y="248.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">问题是否被正确地形式化？预测的单位与口径是否一致？</text>
+  <rect x="20.0" y="280.0" width="212.0" height="50.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.15" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="126.0" y="308.8" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">建模 ↔ 平台</text>
+  <text x="254.0" y="310.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">模型如何版本化、如何上线、失效时谁负责？</text>
+  <rect x="20.0" y="342.0" width="212.0" height="50.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.15" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="126.0" y="370.8" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">团队 ↔ 管线</text>
+  <text x="254.0" y="372.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">这个预测会改变哪个具体决策？不采纳的理由是什么？</text>
+  <text x="20.0" y="420.0" font-size="12.5" text-anchor="start" font-weight="700" fill="#444">多数落地失败发生在接口处，而不是任何一个角色内部。</text>
+</svg>

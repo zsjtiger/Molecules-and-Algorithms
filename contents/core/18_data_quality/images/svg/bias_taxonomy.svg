@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 524" width="640" height="524">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="640" height="524" fill="#ffffff"/>
+  <text x="320.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">药物研发数据中的六类系统性偏差</text>
+  <rect x="24.0" y="60.0" width="194.0" height="62.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.17" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="121.0" y="95.0" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">研究热点偏差</text>
+  <text x="238.0" y="86.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">少数靶点占据绝大部分文献与数据</text>
+  <text x="238.0" y="108.0" font-size="12" text-anchor="start" font-weight="600" fill="#A51C30">后果：模型在冷门靶点上几乎没有可学的信号</text>
+  <rect x="24.0" y="134.0" width="194.0" height="62.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.17" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="121.0" y="169.0" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">发表偏差</text>
+  <text x="238.0" y="160.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">阳性结果发表率远高于阴性结果</text>
+  <text x="238.0" y="182.0" font-size="12" text-anchor="start" font-weight="600" fill="#E69F00">后果：模型学到的是“什么有效”，而非“什么无效”</text>
+  <rect x="24.0" y="208.0" width="194.0" height="62.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.17" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="121.0" y="243.0" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">设计偏差</text>
+  <text x="238.0" y="234.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">医药化学以系列形式探索，骨架高度聚集</text>
+  <text x="238.0" y="256.0" font-size="12" text-anchor="start" font-weight="600" fill="#0072B2">后果：随机划分会高估模型对新骨架的泛化能力</text>
+  <rect x="24.0" y="282.0" width="194.0" height="62.0" rx="6" ry="6" fill="#56B4E9" fill-opacity="0.17" stroke="#56B4E9" stroke-width="1.5"/>
+  <text x="121.0" y="317.1" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">活性阈值偏差</text>
+  <text x="238.0" y="308.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">弱活性与无活性常被记为“大于某值”</text>
+  <text x="238.0" y="330.0" font-size="12" text-anchor="start" font-weight="600" fill="#56B4E9">后果：回归模型把截断值当作真实测量值</text>
+  <rect x="24.0" y="356.0" width="194.0" height="62.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.17" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="121.0" y="391.1" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">人群偏差</text>
+  <text x="238.0" y="382.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">临床与组学数据以欧洲血统人群为主</text>
+  <text x="238.0" y="404.0" font-size="12" text-anchor="start" font-weight="600" fill="#CC79A7">后果：遗传学证据在其他人群中的可迁移性未知</text>
+  <rect x="24.0" y="430.0" width="194.0" height="62.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.17" stroke="#009E73" stroke-width="1.5"/>
+  <text x="121.0" y="465.1" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">时间偏差</text>
+  <text x="238.0" y="456.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">方法与标准随年代变化，老数据口径不同</text>
+  <text x="238.0" y="478.0" font-size="12" text-anchor="start" font-weight="600" fill="#009E73">后果：跨年代混合训练会引入不可见的分布漂移</text>
+  <text x="24.0" y="512.0" font-size="12.5" text-anchor="start" font-weight="700" fill="#444">六类偏差的共同点：它们都不是随机噪声，因此无法靠增大数据量抵消。</text>
+</svg>

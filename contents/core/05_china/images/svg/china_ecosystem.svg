@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 560" width="1060" height="560">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="1060" height="560" fill="#ffffff"/>
+  <text x="530.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">中国 AI 制药生态的分层结构（2026）</text>
+  <rect x="30.0" y="56.0" width="1000.0" height="58.0" rx="6" ry="6" fill="#7a7a7a" fill-opacity="0.1" stroke="#7a7a7a" stroke-width="1.5"/>
+  <rect x="30" y="56" width="200" height="58" rx="6" fill="#7a7a7a" fill-opacity="0.85"/>
+  <text x="130.0" y="90.0" font-size="13.5" text-anchor="middle" font-weight="700" fill="#ffffff">政策与监管</text>
+  <text x="248.0" y="90.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">国务院“人工智能+”行动；国家药监局“人工智能+药品监管”实施意见；数据与遗传资源合规</text>
+  <rect x="30.0" y="122.0" width="1000.0" height="58.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.1" stroke="#CC79A7" stroke-width="1.5"/>
+  <rect x="30" y="122" width="200" height="58" rx="6" fill="#CC79A7" fill-opacity="0.85"/>
+  <text x="130.0" y="156.0" font-size="13.5" text-anchor="middle" font-weight="700" fill="#ffffff">资本</text>
+  <text x="248.0" y="156.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">2026 前三季度 57 笔融资、近 158 亿元；红杉、高瓴等集中押注头部；港股 18C 通道</text>
+  <rect x="30.0" y="188.0" width="1000.0" height="58.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.1" stroke="#0072B2" stroke-width="1.5"/>
+  <rect x="30" y="188" width="200" height="58" rx="6" fill="#0072B2" fill-opacity="0.85"/>
+  <text x="130.0" y="222.0" font-size="13.5" text-anchor="middle" font-weight="700" fill="#ffffff">大厂与 AI for Science 平台</text>
+  <text x="248.0" y="222.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">字节（Anew Labs）· 百度系（百图生科）· 腾讯 · 华为 · 深势科技</text>
+  <rect x="30.0" y="254.0" width="1000.0" height="58.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.1" stroke="#A51C30" stroke-width="1.5"/>
+  <rect x="30" y="254" width="200" height="58" rx="6" fill="#A51C30" fill-opacity="0.85"/>
+  <text x="130.0" y="288.0" font-size="13.5" text-anchor="middle" font-weight="700" fill="#ffffff">AI 原生药物研发公司</text>
+  <text x="248.0" y="288.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">英矽智能 · 晶泰科技 · 剂泰科技 · 德睿智药 · 深度智耀 · 元思生肽 等</text>
+  <rect x="30.0" y="320.0" width="1000.0" height="58.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.1" stroke="#E69F00" stroke-width="1.5"/>
+  <rect x="30" y="320" width="200" height="58" rx="6" fill="#E69F00" fill-opacity="0.85"/>
+  <text x="130.0" y="354.0" font-size="13.5" text-anchor="middle" font-weight="700" fill="#ffffff">创新药企与 Biotech</text>
+  <text x="248.0" y="354.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">东阳光药 · 翰思艾泰 等通过合作、合资引入 AI 能力</text>
+  <rect x="30.0" y="386.0" width="1000.0" height="58.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.1" stroke="#009E73" stroke-width="1.5"/>
+  <rect x="30" y="386" width="200" height="58" rx="6" fill="#009E73" fill-opacity="0.85"/>
+  <text x="130.0" y="420.0" font-size="13.5" text-anchor="middle" font-weight="700" fill="#ffffff">CXO 与自动化实验室</text>
+  <text x="248.0" y="420.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">合成与筛选产能；“计算设计—实验验证—数据反馈”闭环（如赛默飞 × 金斯瑞）</text>
+  <rect x="30.0" y="452.0" width="1000.0" height="58.0" rx="6" ry="6" fill="#56B4E9" fill-opacity="0.1" stroke="#56B4E9" stroke-width="1.5"/>
+  <rect x="30" y="452" width="200" height="58" rx="6" fill="#56B4E9" fill-opacity="0.85"/>
+  <text x="130.0" y="486.0" font-size="13.5" text-anchor="middle" font-weight="700" fill="#ffffff">医院、临床与数据</text>
+  <text x="248.0" y="486.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">临床试验招募快、成本低；真实世界数据规模大但分散</text>
+  <text x="30.0" y="540.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#444">出海通道：对外授权（license-out）、合资、海外临床；2026 年上半年中国创新药 BD 交易总额约 997 亿美元。</text>
+</svg>

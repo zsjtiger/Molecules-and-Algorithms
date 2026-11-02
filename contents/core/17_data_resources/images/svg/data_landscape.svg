@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 584" width="1060" height="584">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="1060" height="584" fill="#ffffff"/>
+  <text x="530.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">药物研发数据资源全景：按数据类型与可及性</text>
+  <rect x="20.0" y="64.0" width="242.0" height="44.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.18" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="141.0" y="90.2" font-size="14" text-anchor="middle" font-weight="600" fill="#1a1a1a">化学与活性</text>
+  <rect x="26.0" y="122.0" width="230.0" height="56.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.08" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="141.0" y="153.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">ChEMBL：文献提取的活性数据</text>
+  <rect x="26.0" y="188.0" width="230.0" height="56.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.08" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="141.0" y="219.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">PubChem：聚合型化合物库</text>
+  <rect x="26.0" y="254.0" width="230.0" height="56.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.08" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="141.0" y="285.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">BindingDB：结合亲和力</text>
+  <rect x="26.0" y="320.0" width="230.0" height="56.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.08" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="141.0" y="351.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">ZINC / Enamine REAL：可购买库</text>
+  <rect x="280.0" y="64.0" width="242.0" height="44.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.18" stroke="#009E73" stroke-width="1.5"/>
+  <text x="401.0" y="90.2" font-size="14" text-anchor="middle" font-weight="600" fill="#1a1a1a">结构</text>
+  <rect x="286.0" y="122.0" width="230.0" height="56.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.08" stroke="#009E73" stroke-width="1.5"/>
+  <text x="401.0" y="153.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">PDB：实验解析的三维结构</text>
+  <rect x="286.0" y="188.0" width="230.0" height="56.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.08" stroke="#009E73" stroke-width="1.5"/>
+  <text x="401.0" y="219.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">AlphaFold DB：预测结构</text>
+  <rect x="286.0" y="254.0" width="230.0" height="56.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.08" stroke="#009E73" stroke-width="1.5"/>
+  <text x="401.0" y="285.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">PDBbind：复合物与亲和力</text>
+  <rect x="286.0" y="320.0" width="230.0" height="56.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.08" stroke="#009E73" stroke-width="1.5"/>
+  <text x="401.0" y="351.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">EMDB：冷冻电镜图谱</text>
+  <rect x="540.0" y="64.0" width="242.0" height="44.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.18" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="661.0" y="90.2" font-size="14" text-anchor="middle" font-weight="600" fill="#1a1a1a">生物与组学</text>
+  <rect x="546.0" y="122.0" width="230.0" height="56.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.08" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="661.0" y="153.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">UniProt：蛋白序列与注释</text>
+  <rect x="546.0" y="188.0" width="230.0" height="56.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.08" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="661.0" y="219.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">GEO / ArrayExpress：表达数据</text>
+  <rect x="546.0" y="254.0" width="230.0" height="56.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.08" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="661.0" y="285.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">DepMap：细胞系基因依赖</text>
+  <rect x="546.0" y="320.0" width="230.0" height="56.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.08" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="661.0" y="351.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">Open Targets：靶点证据聚合</text>
+  <rect x="800.0" y="64.0" width="242.0" height="44.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.18" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="921.0" y="90.2" font-size="14" text-anchor="middle" font-weight="600" fill="#1a1a1a">临床与真实世界</text>
+  <rect x="806.0" y="122.0" width="230.0" height="56.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.08" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="921.0" y="153.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">ClinicalTrials.gov：试验登记</text>
+  <rect x="806.0" y="188.0" width="230.0" height="56.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.08" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="921.0" y="219.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">FAERS：不良事件自发报告</text>
+  <rect x="806.0" y="254.0" width="230.0" height="56.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.08" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="921.0" y="285.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">电子病历与理赔数据（商业）</text>
+  <rect x="806.0" y="320.0" width="230.0" height="56.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.08" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="921.0" y="351.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">专病队列（受限）</text>
+  <rect x="20.0" y="404.0" width="1020.0" height="38.0" rx="5" ry="5" fill="#009E73" fill-opacity="0.1" stroke="#009E73" stroke-width="1.5"/>
+  <text x="36.0" y="428.0" font-size="12.5" text-anchor="start" font-weight="700" fill="#009E73">完全开放：</text>
+  <text x="152.0" y="428.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">可自由下载与再分发，是绝大多数公开模型的训练来源</text>
+  <rect x="20.0" y="450.0" width="1020.0" height="38.0" rx="5" ry="5" fill="#E69F00" fill-opacity="0.1" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="36.0" y="474.0" font-size="12.5" text-anchor="start" font-weight="700" fill="#E69F00">开放但有限制：</text>
+  <text x="152.0" y="474.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">可访问但限制商业用途或再分发，常见于学术数据库</text>
+  <rect x="20.0" y="496.0" width="1020.0" height="38.0" rx="5" ry="5" fill="#D55E00" fill-opacity="0.1" stroke="#D55E00" stroke-width="1.5"/>
+  <text x="36.0" y="520.0" font-size="12.5" text-anchor="start" font-weight="700" fill="#D55E00">商业与专有：</text>
+  <text x="152.0" y="520.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">付费或企业内部，规模与质量通常更高，但无法被外部验证</text>
+  <text x="20.0" y="574.0" font-size="12" text-anchor="start" font-weight="600" fill="#444">公开数据决定了学术界的研究上限；专有数据决定了企业之间的差距。</text>
+</svg>

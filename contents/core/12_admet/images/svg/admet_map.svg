@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1064 494" width="1064" height="494">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="1064" height="494" fill="#ffffff"/>
+  <text x="532.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">ADMET：药物在体内的旅程与对应的预测终点</text>
+  <rect x="20.0" y="62.0" width="236.0" height="62.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.16" stroke="#009E73" stroke-width="1.5"/>
+  <text x="138.0" y="88.5" font-size="14" text-anchor="middle" font-weight="600" fill="#1a1a1a">A 吸收</text>
+  <text x="138.0" y="106.9" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">口服给药 → 进入血液</text>
+  <line x1="256.0" y1="93.0" x2="276.0" y2="93.0" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar-black)"/>
+  <rect x="28.0" y="148.0" width="220.0" height="40.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.07" stroke="#009E73" stroke-width="1.5"/>
+  <text x="138.0" y="171.6" font-size="12" text-anchor="middle" font-weight="400" fill="#1a1a1a">溶解度</text>
+  <rect x="28.0" y="198.0" width="220.0" height="40.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.07" stroke="#009E73" stroke-width="1.5"/>
+  <text x="138.0" y="221.6" font-size="12" text-anchor="middle" font-weight="400" fill="#1a1a1a">渗透性（Caco-2）</text>
+  <rect x="28.0" y="248.0" width="220.0" height="40.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.07" stroke="#009E73" stroke-width="1.5"/>
+  <text x="138.0" y="271.6" font-size="12" text-anchor="middle" font-weight="400" fill="#1a1a1a">口服生物利用度 F</text>
+  <rect x="276.0" y="62.0" width="236.0" height="62.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.16" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="394.0" y="88.5" font-size="14" text-anchor="middle" font-weight="600" fill="#1a1a1a">D 分布</text>
+  <text x="394.0" y="106.9" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">随血液到达组织</text>
+  <line x1="512.0" y1="93.0" x2="532.0" y2="93.0" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar-black)"/>
+  <rect x="284.0" y="148.0" width="220.0" height="40.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.07" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="394.0" y="171.6" font-size="12" text-anchor="middle" font-weight="400" fill="#1a1a1a">血浆蛋白结合率</text>
+  <rect x="284.0" y="198.0" width="220.0" height="40.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.07" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="394.0" y="221.6" font-size="12" text-anchor="middle" font-weight="400" fill="#1a1a1a">血脑屏障穿透</text>
+  <rect x="284.0" y="248.0" width="220.0" height="40.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.07" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="394.0" y="271.6" font-size="12" text-anchor="middle" font-weight="400" fill="#1a1a1a">分布容积 Vd</text>
+  <rect x="532.0" y="62.0" width="236.0" height="62.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.16" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="650.0" y="88.5" font-size="14" text-anchor="middle" font-weight="600" fill="#1a1a1a">M 代谢</text>
+  <text x="650.0" y="106.9" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">主要由肝脏 CYP450 处理</text>
+  <line x1="768.0" y1="93.0" x2="788.0" y2="93.0" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar-black)"/>
+  <rect x="540.0" y="148.0" width="220.0" height="40.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.07" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="650.0" y="171.6" font-size="12" text-anchor="middle" font-weight="400" fill="#1a1a1a">CYP 底物 / 抑制</text>
+  <rect x="540.0" y="198.0" width="220.0" height="40.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.07" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="650.0" y="221.6" font-size="12" text-anchor="middle" font-weight="400" fill="#1a1a1a">代谢稳定性</text>
+  <rect x="540.0" y="248.0" width="220.0" height="40.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.07" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="650.0" y="271.6" font-size="12" text-anchor="middle" font-weight="400" fill="#1a1a1a">代谢位点</text>
+  <rect x="788.0" y="62.0" width="236.0" height="62.0" rx="6" ry="6" fill="#56B4E9" fill-opacity="0.16" stroke="#56B4E9" stroke-width="1.5"/>
+  <text x="906.0" y="88.5" font-size="14" text-anchor="middle" font-weight="600" fill="#1a1a1a">E 排泄</text>
+  <text x="906.0" y="106.9" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">经肾或经肝清除</text>
+  <rect x="796.0" y="148.0" width="220.0" height="40.0" rx="6" ry="6" fill="#56B4E9" fill-opacity="0.07" stroke="#56B4E9" stroke-width="1.5"/>
+  <text x="906.0" y="171.6" font-size="12" text-anchor="middle" font-weight="400" fill="#1a1a1a">清除率 CL</text>
+  <rect x="796.0" y="198.0" width="220.0" height="40.0" rx="6" ry="6" fill="#56B4E9" fill-opacity="0.07" stroke="#56B4E9" stroke-width="1.5"/>
+  <text x="906.0" y="221.6" font-size="12" text-anchor="middle" font-weight="400" fill="#1a1a1a">半衰期 t½</text>
+  <rect x="20.0" y="312.0" width="1024.0" height="76.0" rx="8" ry="8" fill="#A51C30" fill-opacity="0.1" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="36.0" y="338.0" font-size="14" text-anchor="start" font-weight="700" fill="#A51C30">T 毒性</text>
+  <text x="104.0" y="338.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#A51C30">不是最后一步，而是贯穿吸收、分布、代谢、排泄全过程的并行约束</text>
+  <rect x="36.0" y="350.0" width="168.0" height="28.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.16" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="120.0" y="367.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">hERG 抑制</text>
+  <rect x="216.0" y="350.0" width="168.0" height="28.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.16" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="300.0" y="367.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">肝毒性 DILI</text>
+  <rect x="396.0" y="350.0" width="168.0" height="28.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.16" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="480.0" y="367.4" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">遗传毒性</text>
+  <text x="1028.0" y="370.0" font-size="11.5" text-anchor="end" font-weight="400" fill="#A51C30">任一阶段都可能触发</text>
+  <text x="20.0" y="420.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">历史教训：1991 年约 40% 的临床失败源于药代问题；到 2000 年这一比例降至约 10%。</text>
+  <text x="20.0" y="444.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">早期 ADMET 筛选已经把大部分药代问题挡在临床之前——这也意味着这一环节的边际改进空间</text>
+  <text x="20.0" y="468.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">不如靶点选择（见第 1 章 AI 价值地图）。</text>
+</svg>

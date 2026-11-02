@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 360" width="1080" height="360">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="1080" height="360" fill="#ffffff"/>
+  <text x="540.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">AlphaFold3 的三处根本变化</text>
+  <rect x="24.0" y="64.0" width="170.0" height="48.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.12" stroke="#009E73" stroke-width="1.5"/>
+  <text x="109.0" y="91.9" font-size="13" text-anchor="middle" font-weight="600" fill="#1a1a1a">蛋白质链</text>
+  <rect x="24.0" y="126.0" width="170.0" height="48.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.12" stroke="#009E73" stroke-width="1.5"/>
+  <text x="109.0" y="153.9" font-size="13" text-anchor="middle" font-weight="600" fill="#1a1a1a">DNA / RNA</text>
+  <rect x="24.0" y="188.0" width="170.0" height="48.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="109.0" y="215.9" font-size="13" text-anchor="middle" font-weight="600" fill="#1a1a1a">小分子配体</text>
+  <rect x="24.0" y="250.0" width="170.0" height="48.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="109.0" y="277.9" font-size="13" text-anchor="middle" font-weight="600" fill="#1a1a1a">离子、修饰残基</text>
+  <text x="109.0" y="330.0" font-size="12" text-anchor="middle" font-weight="700" fill="#009E73">① 输入扩展到一切生物分子</text>
+  <line x1="194.0" y1="88.0" x2="226.0" y2="88.0" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="194.0" y1="274.0" x2="226.0" y2="274.0" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="194.0" y1="150.0" x2="226.0" y2="150.0" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="194.0" y1="212.0" x2="226.0" y2="212.0" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="226.0" y1="88.0" x2="226.0" y2="274.0" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="226.0" y1="180.0" x2="260.0" y2="180.0" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar-black)"/>
+  <rect x="260.0" y="120.0" width="150.0" height="120.0" rx="6" ry="6" fill="#7a7a7a" fill-opacity="0.1" stroke="#7a7a7a" stroke-width="1.5"/>
+  <text x="335.0" y="175.2" font-size="13" text-anchor="middle" font-weight="600" fill="#1a1a1a">小型 MSA 模块</text>
+  <text x="335.0" y="193.2" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">对 MSA 的依赖大幅降低</text>
+  <line x1="410.0" y1="180.0" x2="450.0" y2="180.0" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar-black)"/>
+  <rect x="450.0" y="100.0" width="220.0" height="160.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.1" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="560.0" y="167.8" font-size="14" text-anchor="middle" font-weight="600" fill="#1a1a1a">Pairformer × 48</text>
+  <text x="560.0" y="186.6" font-size="11.5" text-anchor="middle" font-weight="400" fill="#444444">只维护单一表示与对表示，保留三角更</text>
+  <text x="560.0" y="201.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#444444">新操作</text>
+  <text x="560.0" y="330.0" font-size="12" text-anchor="middle" font-weight="700" fill="#CC79A7">② 用 Pairformer 替代 Evoformer</text>
+  <line x1="670.0" y1="180.0" x2="710.0" y2="180.0" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar-black)"/>
+  <rect x="710.0" y="100.0" width="220.0" height="160.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.12" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="820.0" y="167.8" font-size="14" text-anchor="middle" font-weight="600" fill="#1a1a1a">扩散模块</text>
+  <text x="820.0" y="186.6" font-size="11.5" text-anchor="middle" font-weight="400" fill="#444444">从噪声出发逐步去噪，直接生成全原子</text>
+  <text x="820.0" y="201.5" font-size="11.5" text-anchor="middle" font-weight="400" fill="#444444">坐标；无需残基框架参数化</text>
+  <text x="820.0" y="330.0" font-size="12" text-anchor="middle" font-weight="700" fill="#A51C30">③ 用扩散生成替代坐标回归</text>
+  <line x1="930.0" y1="180.0" x2="960.0" y2="180.0" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar-black)"/>
+  <rect x="960.0" y="130.0" width="100.0" height="100.0" rx="6" ry="6" fill="#1a1a1a" fill-opacity="0.05" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="1010.0" y="175.6" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">复合物结构 +</text>
+  <text x="1010.0" y="191.9" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">置信度</text>
+</svg>

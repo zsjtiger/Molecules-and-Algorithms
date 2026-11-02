@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1086 400" width="1086" height="400">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="1086" height="400" fill="#ffffff"/>
+  <text x="543.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">蛋白设计的标准流程：生成骨架 → 设计序列 → 结构验证</text>
+  <rect x="20.0" y="72.0" width="190.0" height="104.0" rx="6" ry="6" fill="#7a7a7a" fill-opacity="0.14" stroke="#7a7a7a" stroke-width="1.5"/>
+  <text x="115.0" y="119.4" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">靶点 + 表位</text>
+  <text x="115.0" y="137.6" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">指定要结合的位置（hotspot 残基）</text>
+  <line x1="210.0" y1="124.0" x2="234.0" y2="124.0" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar-black)"/>
+  <rect x="234.0" y="72.0" width="190.0" height="104.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.14" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="329.0" y="119.4" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">RFdiffusion</text>
+  <text x="329.0" y="137.6" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">扩散生成蛋白骨架（只有主链坐标）</text>
+  <line x1="424.0" y1="124.0" x2="448.0" y2="124.0" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar-black)"/>
+  <rect x="448.0" y="72.0" width="190.0" height="104.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.14" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="543.0" y="119.4" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">ProteinMPNN</text>
+  <text x="543.0" y="137.6" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">逆折叠：给骨架设计氨基酸序列</text>
+  <line x1="638.0" y1="124.0" x2="662.0" y2="124.0" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar-black)"/>
+  <rect x="662.0" y="72.0" width="190.0" height="104.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.14" stroke="#009E73" stroke-width="1.5"/>
+  <text x="757.0" y="112.2" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">AlphaFold / ESMFold</text>
+  <text x="757.0" y="130.4" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">把序列折回去，看是否与目标骨架</text>
+  <text x="757.0" y="144.7" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">吻合</text>
+  <line x1="852.0" y1="124.0" x2="876.0" y2="124.0" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar-black)"/>
+  <rect x="876.0" y="72.0" width="190.0" height="104.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.14" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="971.0" y="119.4" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">湿实验</text>
+  <text x="971.0" y="137.6" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">表达、筛选、亲和力测定</text>
+  <rect x="234.0" y="206.0" width="614.0" height="44.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.08" stroke="#009E73" stroke-width="1.5"/>
+  <text x="541.0" y="233.0" font-size="12.5" text-anchor="middle" font-weight="600" fill="#009E73">计算过滤：只有 RMSD 与 pLDDT 双双达标的设计才进入实验</text>
+  <path d="M 1046 176 C 1046 300, 300 300, 300 250" fill="none" stroke="#A51C30" stroke-width="1.4" stroke-dasharray="3,3" marker-end="url(#ar-crimson)"/>
+  <text x="620.0" y="300.0" font-size="12" text-anchor="middle" font-weight="600" fill="#A51C30">实验结果回流：微调生成模型、更新筛选阈值</text>
+  <text x="20.0" y="352.0" font-size="12" text-anchor="start" font-weight="400" fill="#444">与小分子不同，蛋白设计不存在“可合成性”难题——任何序列都能用基因表达做出来。</text>
+  <text x="20.0" y="378.0" font-size="12" text-anchor="start" font-weight="600" fill="#444">瓶颈因此从“能不能做出来”转移到“能不能成药”。</text>
+</svg>

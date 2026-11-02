@@ -1,0 +1,89 @@
+% ============ 中文排版（XeLaTeX，无 xeCJK 的原生方案）============
+% XeTeX 内建 CJK 断行（环境无 xeCJK）
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 0.08em minus 0.04em
+\linespread{1.28}
+\setlength{\parskip}{0.42em}
+\setlength{\parindent}{0pt}
+\frenchspacing
+\sloppy
+\hyphenpenalty=5000 \tolerance=2000 \emergencystretch=3em
+
+% ============ 配色（与 HTML 版一致）============
+\usepackage{xcolor}
+\definecolor{bookcrimson}{HTML}{A51C30}
+\definecolor{boxrule}{HTML}{D0D4D9}
+\definecolor{boxback}{HTML}{FAFAFB}
+\definecolor{fpback}{HTML}{FDF4F6}
+\definecolor{fprule}{HTML}{A51C30}
+
+% ============ 自定义盒子 ============
+\usepackage[most]{tcolorbox}
+\newtcolorbox{fpbox}{
+  enhanced, breakable, colback=fpback, colframe=fprule,
+  boxrule=0pt, leftrule=2.4pt, arc=1.6pt,
+  left=10pt, right=10pt, top=7pt, bottom=7pt, before skip=10pt, after skip=10pt }
+\newtcolorbox{purposebox}{
+  enhanced, breakable, colback=white, colframe=white,
+  boxrule=0pt, leftrule=2.4pt, colframe=bookcrimson,
+  left=10pt, right=10pt, top=3pt, bottom=3pt, before skip=8pt, after skip=12pt,
+  fontupper=\itshape\color{bookcrimson} }
+
+% ============ 标题与版式 ============
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\sffamily\bfseries\color{bookcrimson}}
+  {\fontsize{48}{48}\selectfont\thechapter}
+  {8pt}{\fontsize{22}{26}\selectfont\raggedright}
+\titlespacing*{\chapter}{0pt}{-24pt}{28pt}
+\titleformat*{\section}{\sffamily\bfseries\large\color{bookcrimson}}
+\titleformat*{\subsection}{\sffamily\bfseries\normalsize}
+\titleformat*{\subsubsection}{\sffamily\bfseries\small}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[LE]{\small\sffamily\nouppercase{\leftmark}}
+\fancyhead[RO]{\small\sffamily\nouppercase{\rightmark}}
+\fancyfoot[C]{\small\sffamily\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+
+% 图表题注
+\usepackage{caption}
+\captionsetup{font=small, labelfont={bf,sf,color=bookcrimson}, labelsep=period,
+              justification=raggedright, singlelinecheck=false, skip=6pt}
+
+% 索引条目：无 makeidx 时让 \index 安全失效
+\renewcommand{\index}[1]{}
+
+% 中文无真斜体：\emph 改用无衬线体区分（替代西文斜体的惯例做法）
+\let\origemph\emph
+\renewcommand{\emph}[1]{{\sffamily #1}}
+\renewcommand{\textit}[1]{{\sffamily #1}}
+
+% microtype：字距与边缘对齐微调（同 MLSysBook）
+\usepackage{microtype}
+
+% ---------------------------------------------------------------- 整页封面
+% build-pdf.sh 会把 cover-a4.jpg 拷到 .tex 同目录；文件不存在时静默跳过，
+% 这样单独跑 quarto render --to pdf 也不会报错。
+\usepackage{eso-pic}
+\usepackage{graphicx}
+\makeatletter
+\IfFileExists{cover-a4.jpg}{%
+  \let\bk@origmaketitle\maketitle
+  \renewcommand{\maketitle}{%
+    \begingroup
+      \thispagestyle{empty}%
+      \AddToShipoutPictureBG*{%
+        \put(0,0){\includegraphics[width=\paperwidth,height=\paperheight]{cover-a4.jpg}}}%
+      \null\clearpage
+    \endgroup
+    \bk@origmaketitle}%
+}{}
+\makeatother
+
+% 拉丁扩展字符（参考文献人名等）回退字体，避免缺字
+\usepackage{newunicodechar}
+\newfontfamily\latinext{DejaVu Serif}
+\newunicodechar{Ć}{{\latinext Ć}}
+\newunicodechar{ć}{{\latinext ć}}

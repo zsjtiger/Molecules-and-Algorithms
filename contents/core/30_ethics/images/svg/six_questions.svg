@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 548" width="660" height="548">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="660" height="548" fill="#ffffff"/>
+  <text x="330.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">AI 制药的六个伦理问题：各自的争议焦点</text>
+  <rect x="24.0" y="62.0" width="176.0" height="64.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.17" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="112.0" y="98.0" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">可及性</text>
+  <text x="222.0" y="88.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">效率提升的收益流向哪里：更低的药价，还是更高的利润？</text>
+  <text x="222.0" y="112.0" font-size="12" text-anchor="start" font-weight="600" fill="#A51C30">技术本身不决定分配；定价与报销制度决定</text>
+  <rect x="24.0" y="140.0" width="176.0" height="64.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.17" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="112.0" y="176.0" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">研究方向的公平</text>
+  <text x="222.0" y="166.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">AI 会优先改善数据多的领域，而数据多的领域本就是富裕市场的疾病</text>
+  <text x="222.0" y="190.0" font-size="12" text-anchor="start" font-weight="600" fill="#E69F00">被忽视疾病可能因偏差放大而进一步落后</text>
+  <rect x="24.0" y="218.0" width="176.0" height="64.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.17" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="112.0" y="254.0" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">数据主体的权益</text>
+  <text x="222.0" y="244.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">患者数据训练出的模型产生了商业价值，患者是否分享收益？</text>
+  <text x="222.0" y="268.0" font-size="12" text-anchor="start" font-weight="600" fill="#0072B2">知情同意的范围通常不覆盖后续的模型训练</text>
+  <rect x="24.0" y="296.0" width="176.0" height="64.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.17" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="112.0" y="332.1" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">责任归属</text>
+  <text x="222.0" y="322.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">当基于模型输出的决策造成损害，责任在开发者、使用者还是机构？</text>
+  <text x="222.0" y="346.0" font-size="12" text-anchor="start" font-weight="600" fill="#CC79A7">现有法律框架以人的判断为前提，适配尚不完整</text>
+  <rect x="24.0" y="374.0" width="176.0" height="64.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.17" stroke="#009E73" stroke-width="1.5"/>
+  <text x="112.0" y="410.1" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">人群代表性</text>
+  <text x="222.0" y="400.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">训练数据以特定人群为主，模型在其他人群中的可靠性未知</text>
+  <text x="222.0" y="424.0" font-size="12" text-anchor="start" font-weight="600" fill="#009E73">这是科学问题，也是分配正义问题</text>
+  <rect x="24.0" y="452.0" width="176.0" height="64.0" rx="6" ry="6" fill="#56B4E9" fill-opacity="0.17" stroke="#56B4E9" stroke-width="1.5"/>
+  <text x="112.0" y="488.1" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">人的位置</text>
+  <text x="222.0" y="478.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">当模型承担越来越多的判断，专业判断力会不会退化？</text>
+  <text x="222.0" y="502.0" font-size="12" text-anchor="start" font-weight="600" fill="#56B4E9">长期风险：丧失独立评估模型输出的能力</text>
+  <text x="24.0" y="542.0" font-size="12.5" text-anchor="start" font-weight="700" fill="#444">六个问题的共同点：技术进步不会自动解决它们，反而常在技术最成功时最尖锐。</text>
+</svg>

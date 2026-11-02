@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 500" width="740" height="500">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="740" height="500" fill="#ffffff"/>
+  <text x="370.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">生物安全的多层防护：没有单点能解决问题</text>
+  <rect x="24.0" y="64.0" width="170.0" height="66.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.17" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="109.0" y="101.0" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">模型层</text>
+  <text x="216.0" y="92.0" font-size="12" text-anchor="start" font-weight="400" fill="#1a1a1a">能力限制、拒绝有害请求、对高风险用途的访问控制</text>
+  <text x="216.0" y="116.0" font-size="11.5" text-anchor="start" font-weight="600" fill="#0072B2">局限：可被绕过；开源权重后失效</text>
+  <rect x="24.0" y="144.0" width="170.0" height="66.0" rx="6" ry="6" fill="#56B4E9" fill-opacity="0.17" stroke="#56B4E9" stroke-width="1.5"/>
+  <text x="109.0" y="181.0" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">数据层</text>
+  <text x="216.0" y="172.0" font-size="12" text-anchor="start" font-weight="400" fill="#1a1a1a">限制高危毒素与病原体数据的获取与再分发</text>
+  <text x="216.0" y="196.0" font-size="11.5" text-anchor="start" font-weight="600" fill="#56B4E9">局限：多数相关数据本就公开，限制效果有限</text>
+  <rect x="24.0" y="224.0" width="170.0" height="66.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.17" stroke="#009E73" stroke-width="1.5"/>
+  <text x="109.0" y="261.1" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">合成层</text>
+  <text x="216.0" y="252.0" font-size="12" text-anchor="start" font-weight="400" fill="#1a1a1a">DNA 合成服务商筛查订单序列，云实验室做客户尽职调查</text>
+  <text x="216.0" y="276.0" font-size="11.5" text-anchor="start" font-weight="600" fill="#009E73">局限：覆盖率取决于服务商的自愿参与程度</text>
+  <rect x="24.0" y="304.0" width="170.0" height="66.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.17" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="109.0" y="341.1" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">设备与试剂层</text>
+  <text x="216.0" y="332.0" font-size="12" text-anchor="start" font-weight="400" fill="#1a1a1a">关键设备与前体物质的流通管理</text>
+  <text x="216.0" y="356.0" font-size="11.5" text-anchor="start" font-weight="600" fill="#E69F00">局限：管制清单的更新滞后于新出现的风险</text>
+  <rect x="24.0" y="384.0" width="170.0" height="66.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.17" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="109.0" y="421.1" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">法律与规范层</text>
+  <text x="216.0" y="412.0" font-size="12" text-anchor="start" font-weight="400" fill="#1a1a1a">两用性研究的审查、从业者规范、国际公约</text>
+  <text x="216.0" y="436.0" font-size="11.5" text-anchor="start" font-weight="600" fill="#CC79A7">局限：滞后于技术发展，但提供最终的问责依据</text>
+  <rect x="24.0" y="468.0" width="692.0" height="24.0" rx="4" ry="4" fill="#009E73" fill-opacity="0.12" stroke="#009E73" stroke-width="1.5"/>
+  <text x="370.0" y="485.0" font-size="12" text-anchor="middle" font-weight="700" fill="#009E73">最有效的一层往往不是最受关注的一层：合成筛查比模型限制更难绕过</text>
+</svg>

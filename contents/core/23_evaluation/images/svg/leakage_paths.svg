@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 470" width="700" height="470">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="700" height="470" fill="#ffffff"/>
+  <text x="350.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">数据泄漏的五条路径：为什么基准分数会虚高</text>
+  <rect x="24.0" y="62.0" width="170.0" height="64.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.17" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="109.0" y="98.0" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">系列泄漏</text>
+  <text x="216.0" y="88.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">同一篇论文的同系列类似物被随机分到训练集与测试集两边</text>
+  <text x="216.0" y="112.0" font-size="12" text-anchor="start" font-weight="600" fill="#A51C30">对策：按骨架或来源文献划分</text>
+  <rect x="24.0" y="138.0" width="170.0" height="64.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.17" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="109.0" y="174.0" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">时间泄漏</text>
+  <text x="216.0" y="164.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">用后来才有的数据训练，去预测更早的结果</text>
+  <text x="216.0" y="188.0" font-size="12" text-anchor="start" font-weight="600" fill="#E69F00">对策：按时间划分，模拟真实的前瞻场景</text>
+  <rect x="24.0" y="214.0" width="170.0" height="64.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.17" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="109.0" y="250.0" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">结构泄漏</text>
+  <text x="216.0" y="240.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">测试集的蛋白与训练集高度同源（序列相似度 &gt; 30%）</text>
+  <text x="216.0" y="264.0" font-size="12" text-anchor="start" font-weight="600" fill="#0072B2">对策：按序列相似度或家族聚类划分</text>
+  <rect x="24.0" y="290.0" width="170.0" height="64.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.17" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="109.0" y="326.1" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">预处理泄漏</text>
+  <text x="216.0" y="316.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">标准化、特征选择或归一化在划分之前对全量数据做</text>
+  <text x="216.0" y="340.0" font-size="12" text-anchor="start" font-weight="600" fill="#CC79A7">对策：所有预处理只在训练折内拟合</text>
+  <rect x="24.0" y="366.0" width="170.0" height="64.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.17" stroke="#009E73" stroke-width="1.5"/>
+  <text x="109.0" y="402.1" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">调参泄漏</text>
+  <text x="216.0" y="392.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#1a1a1a">用测试集反复调超参，测试集实际上变成了验证集</text>
+  <text x="216.0" y="416.0" font-size="12" text-anchor="start" font-weight="600" fill="#009E73">对策：划出独立的、只用一次的保留集</text>
+  <text x="24.0" y="462.0" font-size="12.5" text-anchor="start" font-weight="700" fill="#444">五条路径的共同后果：报告的性能描述的是记忆能力，而不是泛化能力。</text>
+</svg>

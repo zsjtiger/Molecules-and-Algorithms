@@ -1,0 +1,12 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{fontawesome5}[2026/10/31 no-op stub: callout icons disabled]
+\newcommand{\faIcon}[2][]{}
+\makeatletter
+% define every icon macro Quarto's callout code may reference, as a no-op
+\@for\fa@name:={Info,InfoCircle,Exclamation,ExclamationTriangle,%
+  ExclamationCircle,Lightbulb,Check,CheckCircle,CheckSquare,Times,%
+  TimesCircle,Bug,Fire,QuestionCircle,StickyNote,Clipboard,Book,%
+  BookOpen,Flask,Cogs,Wrench}\do{%
+  \expandafter\providecommand\csname fa\fa@name\endcsname{}}
+\makeatother
+\endinput

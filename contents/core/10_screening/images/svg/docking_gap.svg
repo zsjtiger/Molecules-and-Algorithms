@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 462" width="1000" height="462">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="1000" height="462" fill="#ffffff"/>
+  <text x="500.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">对接打分为什么与真实亲和力相关性不高</text>
+  <rect x="40.0" y="70.0" width="290.0" height="64.0" rx="6" ry="6" fill="#56B4E9" fill-opacity="0.14" stroke="#56B4E9" stroke-width="1.5"/>
+  <text x="185.0" y="97.4" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">对接打分函数计算的</text>
+  <text x="185.0" y="115.6" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">受体与配体之间的相互作用能近似</text>
+  <rect x="660.0" y="70.0" width="300.0" height="64.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.14" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="810.0" y="97.4" font-size="13.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">真实结合自由能包含</text>
+  <text x="810.0" y="115.6" font-size="11" text-anchor="middle" font-weight="400" fill="#444444">焓、熵、溶剂化与构象变化的总和</text>
+  <text x="500.0" y="106.0" font-size="24" text-anchor="middle" font-weight="700" fill="#444">≠</text>
+  <rect x="40.0" y="164.0" width="260.0" height="54.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.13" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="170.0" y="194.8" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">去溶剂化代价</text>
+  <text x="320.0" y="188.0" font-size="12" text-anchor="start" font-weight="400" fill="#1a1a1a">配体与口袋结合前都要脱去水合壳层，</text>
+  <text x="320.0" y="208.0" font-size="12" text-anchor="start" font-weight="400" fill="#1a1a1a">这部分能量往往与结合能同数量级</text>
+  <rect x="40.0" y="230.0" width="260.0" height="54.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.13" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="170.0" y="260.8" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">熵损失</text>
+  <text x="320.0" y="254.0" font-size="12" text-anchor="start" font-weight="400" fill="#1a1a1a">配体固定在口袋中会损失平动、转动与构象自由度，</text>
+  <text x="320.0" y="274.0" font-size="12" text-anchor="start" font-weight="400" fill="#1a1a1a">打分函数通常只用经验项粗略近似</text>
+  <rect x="40.0" y="296.0" width="260.0" height="54.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.13" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="170.0" y="326.8" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">受体柔性</text>
+  <text x="320.0" y="328.0" font-size="12" text-anchor="start" font-weight="400" fill="#1a1a1a">多数对接把受体视为刚性，忽略诱导契合与口袋开合</text>
+  <rect x="40.0" y="362.0" width="260.0" height="54.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.13" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="170.0" y="392.8" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">打分函数的拟合来源</text>
+  <text x="320.0" y="394.0" font-size="12" text-anchor="start" font-weight="400" fill="#1a1a1a">参数拟合自已知复合物，外推到新骨架时系统性偏差明显</text>
+  <text x="40.0" y="452.0" font-size="12.5" text-anchor="start" font-weight="700" fill="#A51C30">实践结论：对接适合做富集排序，不适合做亲和力预测——两者是不同的任务。</text>
+</svg>

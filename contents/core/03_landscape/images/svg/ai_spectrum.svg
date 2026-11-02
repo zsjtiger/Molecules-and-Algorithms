@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 420" width="1060" height="420">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="1060" height="420" fill="#ffffff"/>
+  <text x="530.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">“AI 药物”的定义光谱：AI 参与得越深，统计口径越窄</text>
+  <text x="520.0" y="78.0" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">靶点</text>
+  <text x="650.0" y="78.0" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">分子</text>
+  <text x="780.0" y="78.0" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">优化</text>
+  <text x="910.0" y="78.0" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">临床策略</text>
+  <rect x="40.0" y="94.0" width="120.0" height="38.0" rx="6" ry="6" fill="#56B4E9" fill-opacity="0.18" stroke="#56B4E9" stroke-width="1.5"/>
+  <text x="100.0" y="116.9" font-size="13" text-anchor="middle" font-weight="600" fill="#1a1a1a">L1 辅助</text>
+  <text x="175.0" y="118.0" font-size="12" text-anchor="start" font-weight="400" fill="#1a1a1a">局部环节用 AI：性质预测、虚拟筛选</text>
+  <rect x="475" y="98" width="90" height="30" rx="4" fill="#ffffff" fill-opacity="1.0" stroke="#56B4E9" stroke-width="1.2"/>
+  <rect x="605" y="98" width="90" height="30" rx="4" fill="#ffffff" fill-opacity="1.0" stroke="#56B4E9" stroke-width="1.2"/>
+  <rect x="735" y="98" width="90" height="30" rx="4" fill="#56B4E9" fill-opacity="0.35" stroke="#56B4E9" stroke-width="1.2"/>
+  <rect x="865" y="98" width="90" height="30" rx="4" fill="#ffffff" fill-opacity="1.0" stroke="#56B4E9" stroke-width="1.2"/>
+  <rect x="40.0" y="144.0" width="120.0" height="38.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.18" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="100.0" y="166.9" font-size="13" text-anchor="middle" font-weight="600" fill="#1a1a1a">L2 优化</text>
+  <text x="175.0" y="168.0" font-size="12" text-anchor="start" font-weight="400" fill="#1a1a1a">人定靶点与骨架，AI 主导先导优化</text>
+  <rect x="475" y="148" width="90" height="30" rx="4" fill="#ffffff" fill-opacity="1.0" stroke="#0072B2" stroke-width="1.2"/>
+  <rect x="605" y="148" width="90" height="30" rx="4" fill="#ffffff" fill-opacity="1.0" stroke="#0072B2" stroke-width="1.2"/>
+  <rect x="735" y="148" width="90" height="30" rx="4" fill="#0072B2" fill-opacity="0.9" stroke="#0072B2" stroke-width="1.2"/>
+  <rect x="865" y="148" width="90" height="30" rx="4" fill="#ffffff" fill-opacity="1.0" stroke="#0072B2" stroke-width="1.2"/>
+  <rect x="40.0" y="194.0" width="120.0" height="38.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.18" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="100.0" y="216.9" font-size="13" text-anchor="middle" font-weight="600" fill="#1a1a1a">L3 生成</text>
+  <text x="175.0" y="218.0" font-size="12" text-anchor="start" font-weight="400" fill="#1a1a1a">靶点已知，分子主要由生成模型产生</text>
+  <rect x="475" y="198" width="90" height="30" rx="4" fill="#ffffff" fill-opacity="1.0" stroke="#E69F00" stroke-width="1.2"/>
+  <rect x="605" y="198" width="90" height="30" rx="4" fill="#E69F00" fill-opacity="0.9" stroke="#E69F00" stroke-width="1.2"/>
+  <rect x="735" y="198" width="90" height="30" rx="4" fill="#E69F00" fill-opacity="0.9" stroke="#E69F00" stroke-width="1.2"/>
+  <rect x="865" y="198" width="90" height="30" rx="4" fill="#ffffff" fill-opacity="1.0" stroke="#E69F00" stroke-width="1.2"/>
+  <rect x="40.0" y="244.0" width="120.0" height="38.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.18" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="100.0" y="266.9" font-size="13" text-anchor="middle" font-weight="600" fill="#1a1a1a">L4 端到端</text>
+  <text x="175.0" y="268.0" font-size="12" text-anchor="start" font-weight="400" fill="#1a1a1a">靶点、分子、临床策略均有 AI 参与</text>
+  <rect x="475" y="248" width="90" height="30" rx="4" fill="#A51C30" fill-opacity="0.9" stroke="#A51C30" stroke-width="1.2"/>
+  <rect x="605" y="248" width="90" height="30" rx="4" fill="#A51C30" fill-opacity="0.9" stroke="#A51C30" stroke-width="1.2"/>
+  <rect x="735" y="248" width="90" height="30" rx="4" fill="#A51C30" fill-opacity="0.9" stroke="#A51C30" stroke-width="1.2"/>
+  <rect x="865" y="248" width="90" height="30" rx="4" fill="#A51C30" fill-opacity="0.35" stroke="#A51C30" stroke-width="1.2"/>
+  <rect x="40.0" y="294.0" width="120.0" height="38.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.18" stroke="#009E73" stroke-width="1.5"/>
+  <text x="100.0" y="316.9" font-size="13" text-anchor="middle" font-weight="600" fill="#1a1a1a">表型驱动</text>
+  <text x="175.0" y="318.0" font-size="12" text-anchor="start" font-weight="400" fill="#1a1a1a">不预设靶点，从细胞表型中发现</text>
+  <rect x="475" y="298" width="90" height="30" rx="4" fill="#009E73" fill-opacity="0.9" stroke="#009E73" stroke-width="1.2"/>
+  <rect x="605" y="298" width="90" height="30" rx="4" fill="#009E73" fill-opacity="0.35" stroke="#009E73" stroke-width="1.2"/>
+  <rect x="735" y="298" width="90" height="30" rx="4" fill="#009E73" fill-opacity="0.35" stroke="#009E73" stroke-width="1.2"/>
+  <rect x="865" y="298" width="90" height="30" rx="4" fill="#ffffff" fill-opacity="1.0" stroke="#009E73" stroke-width="1.2"/>
+  <text x="1000.0" y="78.0" font-size="12.5" text-anchor="middle" font-weight="600" fill="#1a1a1a">代表</text>
+  <text x="1000.0" y="118.0" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">多数药企项目</text>
+  <text x="1000.0" y="168.0" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">zasocitinib*</text>
+  <text x="1000.0" y="218.0" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">多数初创项目</text>
+  <text x="1000.0" y="268.0" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">rentosertib</text>
+  <text x="1000.0" y="318.0" font-size="11.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">REC-4881</text>
+  <rect x="400" y="352" width="18" height="14" rx="3" fill="#A51C30" fill-opacity="0.9" stroke="#A51C30" stroke-width="1.2"/>
+  <text x="424.0" y="363.0" font-size="11" text-anchor="start" font-weight="400" fill="#1a1a1a">深色填充：AI 主导该环节</text>
+  <rect x="600" y="352" width="18" height="14" rx="3" fill="#A51C30" fill-opacity="0.35" stroke="#A51C30" stroke-width="1.2"/>
+  <text x="624.0" y="363.0" font-size="11" text-anchor="start" font-weight="400" fill="#1a1a1a">浅色填充：AI 参与但不主导</text>
+  <rect x="812" y="352" width="18" height="14" rx="3" fill="#ffffff" stroke="#A51C30" stroke-width="1.2"/>
+  <text x="836.0" y="363.0" font-size="11" text-anchor="start" font-weight="400" fill="#1a1a1a">空白：无 AI 或未披露</text>
+  <text x="40.0" y="363.0" font-size="10.5" text-anchor="start" font-weight="400" fill="#777">（行内颜色仅区分层级）</text>
+  <text x="40.0" y="406.0" font-size="10.5" text-anchor="start" font-weight="400" fill="#666">* zasocitinib 的发现主要依靠基于物理的计算（FEP 等），属于“计算驱动”而非生成式 AI。</text>
+</svg>

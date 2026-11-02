@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 430" width="980" height="430">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="980" height="430" fill="#ffffff"/>
+  <text x="490.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">护城河在迁移：基础模型能力商品化之后，差异化落在哪里</text>
+  <text x="230.0" y="70.0" font-size="13.5" text-anchor="middle" font-weight="700" fill="#7a7a7a">正在商品化（开源可得）</text>
+  <rect x="40.0" y="88.0" width="380.0" height="44.0" rx="6" ry="6" fill="#7a7a7a" fill-opacity="0.08" stroke="#7a7a7a" stroke-width="1.5"/>
+  <text x="230.0" y="113.8" font-size="12.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">结构预测（Boltz、Chai-1、OpenFold3）</text>
+  <rect x="40.0" y="146.0" width="380.0" height="44.0" rx="6" ry="6" fill="#7a7a7a" fill-opacity="0.08" stroke="#7a7a7a" stroke-width="1.5"/>
+  <text x="230.0" y="171.8" font-size="12.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">初步亲和力预测（Boltz-2）</text>
+  <rect x="40.0" y="204.0" width="380.0" height="44.0" rx="6" ry="6" fill="#7a7a7a" fill-opacity="0.08" stroke="#7a7a7a" stroke-width="1.5"/>
+  <text x="230.0" y="229.8" font-size="12.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">蛋白设计（RFdiffusion、ProteinMPNN）</text>
+  <rect x="40.0" y="262.0" width="380.0" height="44.0" rx="6" ry="6" fill="#7a7a7a" fill-opacity="0.08" stroke="#7a7a7a" stroke-width="1.5"/>
+  <text x="230.0" y="287.8" font-size="12.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">分子性质预测（Chemprop 等）</text>
+  <rect x="40.0" y="320.0" width="380.0" height="44.0" rx="6" ry="6" fill="#7a7a7a" fill-opacity="0.08" stroke="#7a7a7a" stroke-width="1.5"/>
+  <text x="230.0" y="345.8" font-size="12.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">通用大语言模型与智能体框架</text>
+  <text x="750.0" y="70.0" font-size="13.5" text-anchor="middle" font-weight="700" fill="#A51C30">差异化来源（难以复制）</text>
+  <rect x="560.0" y="88.0" width="380.0" height="44.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.1" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="750.0" y="113.8" font-size="12.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">专有数据：自动化实验、表型成像、含阴性样本</text>
+  <rect x="560.0" y="146.0" width="380.0" height="44.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.1" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="750.0" y="171.8" font-size="12.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">闭环速度：设计–合成–测试–学习一轮几天还是几周</text>
+  <rect x="560.0" y="204.0" width="380.0" height="44.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.1" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="750.0" y="229.8" font-size="12.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">临床资产：被人体数据验证过的分子</text>
+  <rect x="560.0" y="262.0" width="380.0" height="44.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.1" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="750.0" y="287.8" font-size="12.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">领域深度：特定疾病或模态的长期积累</text>
+  <rect x="560.0" y="320.0" width="380.0" height="44.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.1" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="750.0" y="345.8" font-size="12.5" text-anchor="middle" font-weight="400" fill="#1a1a1a">合作网络与渠道：大药企选择权、数据合作</text>
+  <line x1="430.0" y1="230.0" x2="548.0" y2="230.0" stroke="#1a1a1a" stroke-width="2" marker-end="url(#ar-black)"/>
+  <text x="489.0" y="220.0" font-size="12" text-anchor="middle" font-weight="600" fill="#1a1a1a">竞争焦点转移</text>
+  <text x="960.0" y="416.0" font-size="10.5" text-anchor="end" font-weight="400" fill="#666">注：左右两栏并非一一对应</text>
+</svg>

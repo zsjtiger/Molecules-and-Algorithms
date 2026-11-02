@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 606" width="980" height="606">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="980" height="606" fill="#ffffff"/>
+  <text x="490.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">十二项可核对的里程碑：按可观测的时间排序</text>
+  <text x="112.0" y="48.0" font-size="11.5" text-anchor="start" font-weight="700" fill="#888">里程碑</text>
+  <text x="548.0" y="48.0" font-size="11.5" text-anchor="start" font-weight="700" fill="#888">核对方式</text>
+  <rect x="24.0" y="64.0" width="70.0" height="34.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.2" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="59.0" y="84.8" font-size="12.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">2027</text>
+  <text x="112.0" y="87.0" font-size="12.5" text-anchor="start" font-weight="600" fill="#1a1a1a">FDA 可信度评估指导文件定稿</text>
+  <text x="548.0" y="87.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#555">是否由草案转为正式稿</text>
+  <rect x="24.0" y="108.0" width="70.0" height="34.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.2" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="59.0" y="128.8" font-size="12.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">2027</text>
+  <text x="112.0" y="131.0" font-size="12.5" text-anchor="start" font-weight="600" fill="#1a1a1a">一个主流评测基准按时间划分重做并公开</text>
+  <text x="548.0" y="131.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#555">是否有产业界主导的新基准发布</text>
+  <rect x="24.0" y="152.0" width="70.0" height="34.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.2" stroke="#009E73" stroke-width="1.5"/>
+  <text x="59.0" y="172.8" font-size="12.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">2028</text>
+  <text x="112.0" y="175.0" font-size="12.5" text-anchor="start" font-weight="600" fill="#1a1a1a">统一的结构–亲和力模型进入商业流程</text>
+  <text x="548.0" y="175.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#555">主要平台是否以单模型替代拼接</text>
+  <rect x="24.0" y="196.0" width="70.0" height="34.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.2" stroke="#009E73" stroke-width="1.5"/>
+  <text x="59.0" y="216.8" font-size="12.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">2028</text>
+  <text x="112.0" y="219.0" font-size="12.5" text-anchor="start" font-weight="600" fill="#1a1a1a">AI 来源候选药物累计进入 III 期超过 20 个</text>
+  <text x="548.0" y="219.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#555">登记库中可统计</text>
+  <rect x="24.0" y="240.0" width="70.0" height="34.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.2" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="59.0" y="260.8" font-size="12.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">2029</text>
+  <text x="112.0" y="263.0" font-size="12.5" text-anchor="start" font-weight="600" fill="#1a1a1a">首例 AI 输出支撑关键监管结论获接受</text>
+  <text x="548.0" y="263.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#555">审评报告中是否出现</text>
+  <rect x="24.0" y="284.0" width="70.0" height="34.0" rx="6" ry="6" fill="#E69F00" fill-opacity="0.2" stroke="#E69F00" stroke-width="1.5"/>
+  <text x="59.0" y="304.8" font-size="12.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">2029</text>
+  <text x="112.0" y="307.0" font-size="12.5" text-anchor="start" font-weight="600" fill="#1a1a1a">头部企业公开报告飞轮周期缩短的量化数据</text>
+  <text x="548.0" y="307.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#555">是否出现带基线的周期数据</text>
+  <rect x="24.0" y="328.0" width="70.0" height="34.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.2" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="59.0" y="348.8" font-size="12.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">2030</text>
+  <text x="112.0" y="351.0" font-size="12.5" text-anchor="start" font-weight="600" fill="#1a1a1a">AI 来源药物 II 期通过率可与历史基线比较</text>
+  <text x="548.0" y="351.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#555">样本量是否足以做统计检验</text>
+  <rect x="24.0" y="372.0" width="70.0" height="34.0" rx="6" ry="6" fill="#A51C30" fill-opacity="0.2" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="59.0" y="392.8" font-size="12.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">2030</text>
+  <text x="112.0" y="395.0" font-size="12.5" text-anchor="start" font-weight="600" fill="#1a1a1a">抗体从头设计产物进入临床</text>
+  <text x="548.0" y="395.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#555">是否有完全从头设计的抗体 IND</text>
+  <rect x="24.0" y="416.0" width="70.0" height="34.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.2" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="59.0" y="436.8" font-size="12.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">2031</text>
+  <text x="112.0" y="439.0" font-size="12.5" text-anchor="start" font-weight="600" fill="#1a1a1a">多个 AI 来源药物获批上市</text>
+  <text x="548.0" y="439.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#555">获批数量与适应症分布</text>
+  <rect x="24.0" y="460.0" width="70.0" height="34.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.2" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="59.0" y="480.8" font-size="12.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">2032</text>
+  <text x="112.0" y="483.0" font-size="12.5" text-anchor="start" font-weight="600" fill="#1a1a1a">阴性结果数据库形成行业惯例</text>
+  <text x="548.0" y="483.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#555">是否有跨企业的阴性数据共享机制</text>
+  <rect x="24.0" y="504.0" width="70.0" height="34.0" rx="6" ry="6" fill="#56B4E9" fill-opacity="0.2" stroke="#56B4E9" stroke-width="1.5"/>
+  <text x="59.0" y="524.8" font-size="12.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">2033</text>
+  <text x="112.0" y="527.0" font-size="12.5" text-anchor="start" font-weight="600" fill="#1a1a1a">被忽视疾病领域出现 AI 驱动的候选药物</text>
+  <text x="548.0" y="527.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#555">管线中是否出现相关项目</text>
+  <rect x="24.0" y="548.0" width="70.0" height="34.0" rx="6" ry="6" fill="#56B4E9" fill-opacity="0.2" stroke="#56B4E9" stroke-width="1.5"/>
+  <text x="59.0" y="568.8" font-size="12.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">2035</text>
+  <text x="112.0" y="571.0" font-size="12.5" text-anchor="start" font-weight="600" fill="#1a1a1a">AI 对临床成功率的影响可被统计确认</text>
+  <text x="548.0" y="571.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#555">是否有同行评议的队列比较研究</text>
+  <text x="24.0" y="598.0" font-size="12.5" text-anchor="start" font-weight="700" fill="#A51C30">每一项都写成可以回答“是或否”的形式——这是与宏大叙事的区别所在。</text>
+</svg>

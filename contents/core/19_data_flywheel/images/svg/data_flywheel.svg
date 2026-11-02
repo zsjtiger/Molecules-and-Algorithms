@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520">
+  <style>text { font-family: 'Noto Sans CJK SC','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif; }</style>
+  <defs>
+    <marker id="ar-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.3"/></marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#E69F00" stroke-width="1.3"/></marker>
+    <marker id="ar-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker>
+    <marker id="ah-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#56B4E9" stroke-width="1.3"/></marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker>
+    <marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#009E73" stroke-width="1.3"/></marker>
+    <marker id="ar-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0E442"/></marker>
+    <marker id="ah-yellow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#F0E442" stroke-width="1.3"/></marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#0072B2" stroke-width="1.3"/></marker>
+    <marker id="ar-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker>
+    <marker id="ah-verm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#D55E00" stroke-width="1.3"/></marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#CC79A7" stroke-width="1.3"/></marker>
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/></marker>
+    <marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.3"/></marker>
+    <marker id="ar-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bdbdbd"/></marker>
+    <marker id="ah-lgray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#bdbdbd" stroke-width="1.3"/></marker>
+    <marker id="ar-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="ah-crimson" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff" stroke="#A51C30" stroke-width="1.3"/></marker>
+  </defs>
+  <rect width="1000" height="520" fill="#ffffff"/>
+  <text x="500.0" y="28.0" font-size="15.5" text-anchor="middle" font-weight="700" fill="#1a1a1a">数据飞轮：四个环节，三处最容易断</text>
+  <rect x="254.0" y="102.0" width="172.0" height="56.0" rx="6" ry="6" fill="#0072B2" fill-opacity="0.17" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="340.0" y="134.2" font-size="14" text-anchor="middle" font-weight="600" fill="#1a1a1a">模型预测</text>
+  <rect x="404.0" y="252.0" width="172.0" height="56.0" rx="6" ry="6" fill="#009E73" fill-opacity="0.17" stroke="#009E73" stroke-width="1.5"/>
+  <text x="490.0" y="284.2" font-size="14" text-anchor="middle" font-weight="600" fill="#1a1a1a">实验验证</text>
+  <rect x="254.0" y="402.0" width="172.0" height="56.0" rx="6" ry="6" fill="#56B4E9" fill-opacity="0.17" stroke="#56B4E9" stroke-width="1.5"/>
+  <text x="340.0" y="434.2" font-size="14" text-anchor="middle" font-weight="600" fill="#1a1a1a">数据入库</text>
+  <rect x="104.0" y="252.0" width="172.0" height="56.0" rx="6" ry="6" fill="#CC79A7" fill-opacity="0.17" stroke="#CC79A7" stroke-width="1.5"/>
+  <text x="190.0" y="284.2" font-size="14" text-anchor="middle" font-weight="600" fill="#1a1a1a">模型更新</text>
+  <path d="M 426.0 130.0 A 93.4 93.4 0 0 1 490.0 252.0" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ar-black)"/>
+  <circle cx="478.6" cy="141.4" r="13.0" fill="#ffffff" stroke="#D55E00" stroke-width="1.6"/>
+  <text x="478.6" y="145.9" font-size="12" text-anchor="middle" font-weight="700" fill="#D55E00">①</text>
+  <path d="M 490.0 308.0 A 93.4 93.4 0 0 1 426.0 430.0" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ar-black)"/>
+  <circle cx="478.6" cy="418.6" r="13.0" fill="#ffffff" stroke="#D55E00" stroke-width="1.6"/>
+  <text x="478.6" y="423.1" font-size="12" text-anchor="middle" font-weight="700" fill="#D55E00">②</text>
+  <path d="M 254.0 430.0 A 93.4 93.4 0 0 1 190.0 308.0" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ar-black)"/>
+  <circle cx="201.4" cy="418.6" r="13.0" fill="#ffffff" stroke="#D55E00" stroke-width="1.6"/>
+  <text x="201.4" y="423.1" font-size="12" text-anchor="middle" font-weight="700" fill="#D55E00">③</text>
+  <path d="M 190.0 252.0 A 93.4 93.4 0 0 1 254.0 130.0" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ar-black)"/>
+  <text x="340.0" y="272.0" font-size="13.5" text-anchor="middle" font-weight="700" fill="#444">一次迭代</text>
+  <text x="340.0" y="294.0" font-size="11.5" text-anchor="middle" font-weight="400" fill="#666">周数到月数</text>
+  <rect x="600.0" y="72.0" width="384.0" height="112.0" rx="8" ry="8" fill="#D55E00" fill-opacity="0.08" stroke="#D55E00" stroke-width="1.5"/>
+  <rect x="600.0" y="72.0" width="384.0" height="34.0" rx="8" ry="8" fill="#D55E00" fill-opacity="0.2" stroke="#D55E00" stroke-width="1.5"/>
+  <text x="618.0" y="95.0" font-size="13" text-anchor="start" font-weight="700" fill="#D55E00">① 验证通量不足</text>
+  <text x="618.0" y="134.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#444">模型每周能排出上千个候选，实验每周只能测几十个。</text>
+  <text x="618.0" y="158.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#444">飞轮的转速由最慢的那一环决定。</text>
+  <rect x="600.0" y="214.0" width="384.0" height="112.0" rx="8" ry="8" fill="#D55E00" fill-opacity="0.08" stroke="#D55E00" stroke-width="1.5"/>
+  <rect x="600.0" y="214.0" width="384.0" height="34.0" rx="8" ry="8" fill="#D55E00" fill-opacity="0.2" stroke="#D55E00" stroke-width="1.5"/>
+  <text x="618.0" y="237.0" font-size="13" text-anchor="start" font-weight="700" fill="#D55E00">② 阴性结果未入库</text>
+  <text x="618.0" y="276.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#444">验证失败的分子常常不被记录，而它们恰是模型最缺的信息；</text>
+  <text x="618.0" y="300.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#444">数据只进不出，偏差只增不减。</text>
+  <rect x="600.0" y="356.0" width="384.0" height="112.0" rx="8" ry="8" fill="#D55E00" fill-opacity="0.08" stroke="#D55E00" stroke-width="1.5"/>
+  <rect x="600.0" y="356.0" width="384.0" height="34.0" rx="8" ry="8" fill="#D55E00" fill-opacity="0.2" stroke="#D55E00" stroke-width="1.5"/>
+  <text x="618.0" y="379.0" font-size="13" text-anchor="start" font-weight="700" fill="#D55E00">③ 模型不真正更新</text>
+  <text x="618.0" y="418.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#444">许多流程里模型只在项目启动时训练一次，</text>
+  <text x="618.0" y="442.0" font-size="11.5" text-anchor="start" font-weight="400" fill="#444">新数据堆在库里，从未回到训练集。</text>
+</svg>
