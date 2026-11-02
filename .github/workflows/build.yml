@@ -1,0 +1,132 @@
+# 构建书稿：HTML 发布到 GitHub Pages；PDF 随 Pages 一起发布；打 v* tag 时创建 Release 并附带 PDF
+#
+# 触发方式：
+#   - push 到 main：构建 HTML + PDF，并部署到 GitHub Pages
+#   - push v* tag：构建 PDF，并创建 Release（附件为 PDF）
+#   - pull_request：只构建 HTML，检查渲染是否通过
+#   - Actions 页面手动运行（workflow_dispatch）：构建 HTML + PDF，不部署、不发布
+#
+# 需要在仓库 Settings → Pages 中把 Source 设为 "GitHub Actions"。
+
+name: build
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  QUARTO_VERSION: "1.6.42"   # 与 README 中的实测版本保持一致
+  PDF_NAME: "分子与算法.pdf"
+
+jobs:
+  build-html:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: ${{ env.QUARTO_VERSION }}
+
+      - name: Render HTML
+        run: quarto render --to html
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: html-site
+          path: _build
+          retention-days: 7
+
+  build-pdf:
+    # PR 不生成 PDF，节省时间；只在 main、tag 或手动运行时生成
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: ${{ env.QUARTO_VERSION }}
+
+      - name: Install XeLaTeX and CJK fonts
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq --no-install-recommends \
+            texlive-xetex texlive-latex-recommended texlive-latex-extra \
+            texlive-fonts-recommended texlive-pictures \
+            fonts-noto-cjk fonts-noto-cjk-extra libcairo2 > /dev/null
+
+      - name: Build PDF
+        run: bash tools/build-pdf.sh
+
+      - name: Rename PDF
+        run: mkdir -p pdf && mv "分子与算法.pdf" "pdf/$PDF_NAME"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pdf
+          path: pdf/
+          retention-days: 7
+
+  deploy-pages:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: [build-html, build-pdf]
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: html-site
+          path: site
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: pdf
+          path: site
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: build-pdf
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: pdf
+          path: pdf
+
+      - name: Create GitHub Release with PDF
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" "pdf/$PDF_NAME" \
+            --title "分子与算法 $GITHUB_REF_NAME" \
+            --generate-notes \
+            --verify-tag
